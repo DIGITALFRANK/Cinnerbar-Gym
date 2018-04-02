@@ -1,0 +1,178 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: url(pattern-medium.jpg);
+	background-size: cover;
+	font-family: 'Press Start 2P', cursive;
+}
+h1 {
+	font-family: 'Press Start 2P', cursive;
+	color: #00FF66;
+}
+.electrode {
+	position: relative;
+	height: 500px;
+	width: 400px;
+}
+.marowak {
+	position: relative;
+	height: 500px;
+	width: 400px;}
+.crobat {
+	position: relative;
+	height: 400px;
+	width: 400px;
+}
+.poke-thrasher {
+	position: relative;
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;	
+	margin-left: 15%;
+	height: 900px;
+	width: 1200px;
+	background-color: red;
+	border-top-left-radius: 190px;
+	border: solid black 6px;
+}
+.icon {
+/*	background-color: darkred;*/
+	position: relative;
+	display: flex-box;
+	flex-direction: row;
+	justify-content: flex-start;
+	border-radius: 55px;	
+	border: solid black 8px;
+	margin-top: 8%;
+	margin-left:5%;
+	height: 85%;
+	width: 45%;
+}
+.btn-group button {
+	margin-left: 20%;
+	float: left;
+}
+#blue {
+	background-color: blue;
+	border: solid black 6px;
+	cursor: pointer;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+#green {
+	border: solid black 4px;
+	cursor: pointer;
+	background-color: green;
+	height: 24px;
+	width: 24px;
+	border-radius: 12px;
+	margin-left: 9%;
+	margin-top: 10%
+}
+#yellow {
+	border: solid black 4px;
+	cursor: pointer;
+	background-color: yellow;
+	height: 24px;
+	width: 24px;
+	border-radius: 12px;
+	margin-top: 10%
+}
+#red {
+	border: solid black 4px;
+	cursor: pointer;
+	background-color: darkred;
+	height: 24px;
+	width: 24px;
+	border-radius: 12px;
+	margin-top: 10%
+}
+.icon-display {
+	position: relative;
+	height: 600px;
+	width: 480px;
+	background-color: #3A3A3A;
+	border-radius: 40px;
+	margin-top: 25%;
+	margin-left: 2%;
+	border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px inset;
+}
+.sprites {
+	display: wrap;
+	height: 550px;
+	width: 480px;
+}
+.door {
+/*	background-color: darkblue;*/
+	position: relative;
+	display: flex-box;
+	flex-direction: row;
+	justify-content: flex-start;
+	border-radius: 55px;	
+	border: solid black 8px;
+	margin-top: 8%;
+	height: 85%;
+	width: 45%;
+}
+.stats-display {
+	position: relative;
+	height: 600px;
+	width: 480px;
+	background-color: #3A3A3A;
+	border-radius: 40px;
+	margin-top: 25%;
+	margin-left: 2%;
+	border: 2px solid;
+    padding: 10px;
+    box-shadow: 5px 8px inset;
+}
+
+.hp {
+	margin-top: 25%;
+	line-height: 1.6;
+}
+.atk {
+	line-height: 1.6;
+}
+.def {
+	line-height: 1.6;
+}
+.type {
+	line-height: 1.6;
+}
+.abilities {
+	line-height: 1.6;
+}
+.nav-buttons {
+	display: inline;
+}
+#left {
+	border: solid black 4px;
+	cursor: pointer;
+	background-color: green;
+	height: 24px;
+	width: 24px;
+	border-radius: 12px;
+	margin-left: 5%;
+}
+#right {
+	border: solid black 4px;
+	cursor: pointer;
+	background-color: green;
+	height: 24px;
+	width: 24px;
+	border-radius: 12px;
+	margin-left: 5%;
+}
+
+
+
