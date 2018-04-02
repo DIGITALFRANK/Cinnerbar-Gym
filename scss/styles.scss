@@ -21,7 +21,7 @@ h1 {
 	color: $fontColor;
 	size: 20px;
 }
-.poke-thrasher {
+.Cinnamon-Gym {
 	position: relative;
 	display: flex;
 	margin-top: 50px;
@@ -31,7 +31,12 @@ h1 {
 	width: 1200px;
 	background-color: $pokeDexColor;
 	border-top-left-radius: 190px;
+	border-top-right-radius: 190px;
 	border: solid $borderColor 6px;
+		.Trainer-Name {
+			text-align: center;
+			font-size: 20px;
+		}
 }
 .icon {
 	position: relative;
@@ -45,40 +50,6 @@ h1 {
 	height: 85%;
 	width: 45%;
 }
-.btn-group button {
-	margin-left: 20%;
-	float: left;
-}
-#blue {
-		background-color: $blueButton;
-		border: solid $borderColor 6px;
-		cursor: pointer;
-		height: 100px;
-		width: 100px;
-		border-radius: 50px;
-		margin-top: 2%;
-		margin-left: 5%;
-	}
-#green {
-		background-color: $greenButton;
-		border: solid $borderColor 6px;
-		cursor: pointer;
-		height: 100px;
-		width: 100px;
-		border-radius: 50px;
-		margin-top: 2%;
-		margin-left: 5%;
-	}
-#yellow {
-		background-color: $yellowButton;
-		border: solid $borderColor 6px;
-		cursor: pointer;
-		height: 100px;
-		width: 100px;
-		border-radius: 50px;
-		margin-top: 2%;
-		margin-left: 5%;
-	}
 
 .icon-display {
 	position: relative;
@@ -86,7 +57,7 @@ h1 {
 	width: 480px;
 	background-color: $screenColor;
 	border-radius: 40px;
-	margin-top: 25%;
+	margin-top: 15%;
 	margin-left: 2%;
 	border: 1px solid;
     padding: 10px;
@@ -117,7 +88,7 @@ h1 {
 		width: 480px;
 		background-color: $screenColor;
 		border-radius: 40px;
-		margin-top: 25%;
+		margin-top: 15%;
 		margin-left: 2%;
 		border: 2px solid;
 		padding: 10px;
@@ -145,7 +116,3 @@ h1 {
 		}
 	}
 }
-
-
-
-
