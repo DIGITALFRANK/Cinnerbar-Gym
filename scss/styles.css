@@ -17,11 +17,11 @@ h1 {
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 15%;
-  height: 900px;
+  height: 1000px;
   width: 1200px;
   background-color: red;
-  border-top-left-radius: 190px;
-  border-top-right-radius: 190px;
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px;
   border: solid black 6px;
 }
 
@@ -38,7 +38,7 @@ h1 {
   border-radius: 55px;
   border: solid black 8px;
   margin-top: 8%;
-  margin-left: 5%;
+  margin-left: 3.5%;
   height: 85%;
   width: 45%;
 }
@@ -62,7 +62,7 @@ h1 {
   line-height: 1.8;
 }
 
-.icon-display #icon {
+.icon-display .icon {
   height: 450px;
   width: 450px;
 }
