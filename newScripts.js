@@ -26,7 +26,7 @@ class MawuPokemon {
 
                 let $listItem = $(`<li class="btn-floating $pokemonName">${$pokemonImage}${$pokemonName}<div class="infoBox">${$hp}${$attack}${$defense}${$abilities}</div></li>`)
 
-                $('#pokeThrasher').append($listItem);
+                $('#mawuAkuma').append($listItem);
 
                 self.name = data.name;
                 self.imgSrc = data.sprites.front_default;
