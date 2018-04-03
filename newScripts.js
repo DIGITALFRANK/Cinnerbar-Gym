@@ -24,8 +24,9 @@ class MawuPokemon {
                 });
                 $abilities.append($abilitiesArr);
 
-                $('.pokemonImg').append($pokemonImage);
-                $('.pokemonInfo').append($pokemonName, $hp, $attack, $defense, $abilities);
+                let $listItem = $(`<li class="btn-floating $pokemonName">${$pokemonImage}${$pokemonName}<div class="infoBox">${$hp}${$attack}${$defense}${$abilities}</div></li>`)
+
+                $('#pokeThrasher').append($listItem);
 
                 self.name = data.name;
                 self.imgSrc = data.sprites.front_default;
@@ -57,7 +58,7 @@ class ThrasherPokemon {
                 console.log('fresh new Pokemon!')
                 self.xyzAllDataResults = data;
 
-                let $pokemonName = $(`<h1 class="pokemonName">${data.name}</h1>`);
+                let $pokemonName = $(`<p class="pokemonName">${data.name}</p>`);
                 let $pokemonImage = $(`<div class="frame frame-primary mask mask-primary"><img src=${data.sprites.back_default}></div>`);
                     let $frontImg = $(`<div class="frame frame-primary mask mask-primary"><img src=${data.sprites.front_default}></div>`);
                     let $backImg = $(`<div class="frame frame-primary mask mask-primary"><img src=${data.sprites.back_default}></div>`);
@@ -72,8 +73,12 @@ class ThrasherPokemon {
                 });
                 $abilities.append($abilitiesArr);
 
-                $('.pokemonImg').append($pokemonImage);
-                $('.pokemonInfo').append($pokemonName, $hp, $attack, $defense, $abilities);
+
+                let $listItem = $(`<li class="btn-floating $pokemonName">${$pokemonImage}${$pokemonName}<div class="infoBox">${$hp}${$attack}${$defense}${$abilities}</div></li>`)
+                // let infoBox = $(`<div class="infoBox">${$hp}${$attack}${$defense}${$abilities}</div>`)
+
+                $('#pokeThrasher').append($listItem);
+                // $('.pokemonInfo').append($pokemonName, $hp, $attack, $defense, $abilities);
 
                 self.name = data.name;
                 self.imgSrc = data.sprites.front_default;
