@@ -29,16 +29,24 @@ h1 {
   font-size: 16px;
 }
 
-.Cinnamon-Gym #left-button {
+.Cinnamon-Gym .left-button {
   position: absolute;
+  height: 10%;
+  width: 10%;
   bottom: -2%;
-  left: -3%;
+  left: -5%;
+  border-radius: 12%;
+  background-color: #3A3A3A;
 }
 
-.Cinnamon-Gym #right-button {
+.Cinnamon-Gym .right-button {
   position: absolute;
+  height: 10%;
+  width: 10%;
   bottom: -2%;
-  right: -3%;
+  right: -5%;
+  border-radius: 12%;
+  background-color: #3A3A3A;
 }
 
 .icon {
@@ -49,7 +57,7 @@ h1 {
   border-radius: 55px;
   border: solid black 8px;
   margin-top: 10%;
-  margin-left: 3.5%;
+  margin-left: 5%;
   height: 85%;
   width: 45%;
 }
