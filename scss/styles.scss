@@ -11,6 +11,7 @@ $screenColor: #3A3A3A;
 $borderColor: black;
 
 body {
+	margin: 0 auto;
 	background: $wallpaperLg;
 	background-size: cover;
 	font-family: $font-stack;
@@ -21,17 +22,33 @@ h1 {
 	color: $fontColor;
 	size: 20px;
 }
-.poke-thrasher {
+.Cinnamon-Gym {
 	position: relative;
 	display: flex;
-	margin-top: 50px;
-	margin-bottom: 50px;	
-	margin-left: 15%;
-	height: 900px;
+	// margin-top: 50px;
+	// margin-bottom: 50px;	
+	// margin-left: 15%;
+	margin: 0 auto;
+	height: 1100px;
 	width: 1200px;
 	background-color: $pokeDexColor;
-	border-top-left-radius: 190px;
+	border-top-left-radius: 180px;
+	border-top-right-radius: 180px;
 	border: solid $borderColor 6px;
+		.Trainer-Name {
+			text-align: center;
+			font-size: 20px;
+		}
+		#left-button {
+			position: absolute;
+			bottom: -5%;
+			left: 0%;
+		}
+		#right-button {
+			position: absolute;
+			bottom: -5%;
+			right: -3%;
+		}
 }
 .icon {
 	position: relative;
@@ -40,65 +57,28 @@ h1 {
 	justify-content: flex-start;
 	border-radius: 55px;	
 	border: solid $borderColor 8px;
-	margin-top: 8%;
-	margin-left:5%;
+	margin-top: 10%;
+	margin-left:3.5%;
 	height: 85%;
 	width: 45%;
-}
-.btn-group button {
-	margin-left: 20%;
-	float: left;
-}
-#blue {
-		background-color: $blueButton;
-		border: solid $borderColor 6px;
-		cursor: pointer;
-		height: 100px;
-		width: 100px;
-		border-radius: 50px;
-		margin-top: 2%;
-		margin-left: 5%;
-	}
-#green {
-		background-color: $greenButton;
-		border: solid $borderColor 6px;
-		cursor: pointer;
-		height: 100px;
-		width: 100px;
-		border-radius: 50px;
-		margin-top: 2%;
-		margin-left: 5%;
-	}
-#yellow {
-		background-color: $yellowButton;
-		border: solid $borderColor 6px;
-		cursor: pointer;
-		height: 100px;
-		width: 100px;
-		border-radius: 50px;
-		margin-top: 2%;
-		margin-left: 5%;
-	}
-
-.icon-display {
-	position: relative;
-	height: 600px;
-	width: 480px;
-	background-color: $screenColor;
-	border-radius: 40px;
-	margin-top: 25%;
-	margin-left: 2%;
-	border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px inset;
-	#name {
-		margin-top: 20%;
-		font-size: 28px;
-		line-height: 1.8;
-	}
-	#icon {
-		height: 450px;
-		width: 450px;
+	.left-display {
+		position: relative;
+		height: 700px;
+		width: 480px;
+		background-color: $screenColor;
+		border-radius: 40px;
+		margin-top: 10%;
+		margin-left: 2%;
+		border: 1px solid;
+		padding: 10px;
+		box-shadow: 6px 10px inset;
+		#thrasher {
+			position: relative;
+			height: 100%;
+			width: auto;
+			margin-left: 15%;
+			margin-top: 2%;
+		}
 	}
 }
 .door {
@@ -108,46 +88,25 @@ h1 {
 	justify-content: flex-start;
 	border-radius: 55px;	
 	border: solid $borderColor 8px;
-	margin-top: 8%;
+	margin-top: 10%;
 	height: 85%;
 	width: 45%;
-	.stats-display {
+	.right-display {
 		position: relative;
-		height: 600px;
+		height: 700px;
 		width: 480px;
 		background-color: $screenColor;
 		border-radius: 40px;
-		margin-top: 25%;
+		margin-top: 10%;
 		margin-left: 2%;
 		border: 2px solid;
 		padding: 10px;
-		box-shadow: 5px 8px inset;
-		.hp {
-			margin-top: 20%;
-			line-height: 1.6;
-		}
-		.atk {
-			line-height: 1.6;
-		}
-		.def {
-			line-height: 1.6;
-		}
-		.type {
-			line-height: 1.6;
-		}
-		.abilities {
-			line-height: 1.6;
-		}
-		#abilities {
-			font-family: $font-stack;
-			color: $fontColor;
-			font-size: 28px;
+		box-shadow: 6px 8px inset;
+		#mawu {
+			position: relative;
+			height: 100%;
+			width: auto;
+			margin-left: 10%;
 		}
 	}
 }
-
-
-
-
-
-

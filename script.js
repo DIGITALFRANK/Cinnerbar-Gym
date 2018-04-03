@@ -133,15 +133,19 @@ $.ajax({
 	});	
 }
 //Button functionality calling the Trainer Obj's line-up, 1 button for each pokemon
-$( "#blue" ).click(function() {
-	renderPokemon(pokeThrasher.pokeTeam[0]);
-}); 
-$( "#green" ).click(function() {
-	renderPokemon(pokeThrasher.pokeTeam[1]);
-});
-$( "#yellow" ).click(function() {
-	renderPokemon(pokeThrasher.pokeTeam[2]);
-});
+// $( "#blue" ).click(function() {
+// 	renderPokemon(pokeThrasher.pokeTeam[0]);
+// }); 
+// $( "#green" ).click(function() {
+// 	renderPokemon(pokeThrasher.pokeTeam[1]);
+// });
+// $( "#yellow" ).click(function() {
+// 	renderPokemon(pokeThrasher.pokeTeam[2]);
+// });
+$(document).ready(function(){
+    $('.fixed-action-btn').floatingActionButton();
+  });
+  
 // calling each individual pokemon from the API (intital AJAX call)
 electrode();
 marowak();
