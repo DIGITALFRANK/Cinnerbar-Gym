@@ -113,7 +113,44 @@
 html {
   width: 100%;
   height: 100%;
-  background: #444400;
+  background: #4444ff;
+  animation: colorFlash 3s infinite;
+}
+
+@keyframes colorFlash {
+  0% {
+    background: #44355b;
+  }
+  10% {
+    background: #31263e;
+  }
+  20% {
+    background: #f93476;
+  }
+  30% {
+    background: #ffc60c;
+  }
+  40% {
+    background: #0cf983;
+  }
+  50% {
+    background: #26547c;
+  }
+  60% {
+    background: #ef476f;
+  }
+  70% {
+    background: #ffa630;
+  }
+  80% {
+    background: #4ecdc4;
+  }
+  90% {
+    background: #b56edd;
+  }
+  100% {
+    background: #e03e51;
+  }
 }
 
 body {
