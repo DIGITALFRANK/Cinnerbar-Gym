@@ -1,7 +1,7 @@
 // Variables
 $font-stack: 'Press Start 2P', cursive;
 $fontColor:#00FF66;
-$wallpaperLg: url(/pattern-large.jpg);
+$wallpaperLg: url(Cinnerbar-Gym/Images/poketrainer-background.jpg);
 $buttonEffects: rgb(237, 240, 71); 
 $blueButton: blue;
 $yellowButton: yellow;
@@ -49,25 +49,24 @@ h1 {
 	margin-left:3.5%;
 	height: 85%;
 	width: 45%;
-}
-
-.left-display {
-	position: relative;
-	height: 700px;
-	width: 480px;
-	background-color: $screenColor;
-	border-radius: 40px;
-	margin-top: 10%;
-	margin-left: 2%;
-	border: 1px solid;
-    padding: 10px;
-    box-shadow: 6px 10px inset;
-	#thrasher {
+	.left-display {
 		position: relative;
-		height: 98%;
-		width: auto;
-		margin-left: 15%;
-		margin-top: 5%;
+		height: 700px;
+		width: 480px;
+		background-color: $screenColor;
+		border-radius: 40px;
+		margin-top: 10%;
+		margin-left: 2%;
+		border: 1px solid;
+		padding: 10px;
+		box-shadow: 6px 10px inset;
+		#thrasher {
+			position: relative;
+			height: 100%;
+			width: auto;
+			margin-left: 15%;
+			margin-top: 2%;
+		}
 	}
 }
 .door {
@@ -93,7 +92,7 @@ h1 {
 		box-shadow: 6px 8px inset;
 		#mawu {
 			position: relative;
-			height: 98%;
+			height: 100%;
 			width: auto;
 			margin-left: 10%;
 		}

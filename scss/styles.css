@@ -1,5 +1,5 @@
 body {
-  background: url(/pattern-large.jpg);
+  background: url(Cinnerbar-Gym/Images/poketrainer-background.jpg);
   background-size: cover;
   font-family: "Press Start 2P", cursive;
   font-size: 16px;
@@ -43,7 +43,7 @@ h1 {
   width: 45%;
 }
 
-.left-display {
+.icon .left-display {
   position: relative;
   height: 700px;
   width: 480px;
@@ -56,12 +56,12 @@ h1 {
   box-shadow: 6px 10px inset;
 }
 
-.left-display #thrasher {
+.icon .left-display #thrasher {
   position: relative;
-  height: 98%;
+  height: 100%;
   width: auto;
   margin-left: 15%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .door {
@@ -91,7 +91,7 @@ h1 {
 
 .door .right-display #mawu {
   position: relative;
-  height: 98%;
+  height: 100%;
   width: auto;
   margin-left: 10%;
 }
