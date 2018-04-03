@@ -1,8 +1,12 @@
 #ianPokedex {
   position: absolute;
   padding: 25px;
+  border-radius: 25px;
   background: rgba(255, 255, 255, 0.6);
-  z-index: 100000;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
 }
 
 #ianPokedex li {
@@ -24,18 +28,41 @@
     bottom: 100px;
     left: 100px;
     opacity: 1;
+    z-index: 100000;
   }
 }
 
 .ianReveal {
-  animation: ianReveal 1s;
+  animation: ianReveal 1s forwards;
+}
+
+@keyframes ianHide {
+  0% {
+    bottom: 100px;
+    left: 100px;
+    opacity: 1;
+  }
+  100% {
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+.ianHide {
+  animation: ianHide 1s forwards;
 }
 
 #francisPokedex {
   position: absolute;
   padding: 25px;
+  border-radius: 25px;
   background: rgba(255, 255, 255, 0.6);
-  z-index: 100000;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  z-index: -1;
 }
 
 #francisPokedex li {
@@ -57,16 +84,41 @@
     bottom: 100px;
     right: 100px;
     opacity: 1;
+    z-index: 100000;
   }
 }
 
 .francisReveal {
-  animation: francisReveal 1s;
+  animation: francisReveal 1s forwards;
+}
+
+@keyframes francisHide {
+  0% {
+    bottom: 100px;
+    right: 100px;
+    opacity: 1;
+  }
+  100% {
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+.francisHide {
+  animation: francisHide 1s forwards;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  background: #444400;
 }
 
 body {
   margin: 0 auto;
-  background: url(../Images/poketrainer-background.jpg);
+  background: url(../Images/poketrainer-background-transparent.png);
   background-size: cover;
   font-family: "Press Start 2P", cursive;
   font-size: 16px;
