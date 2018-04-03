@@ -1,14 +1,67 @@
 
 @import "partials/components/pokedex";
+@import "partials/colors/colors";
+
+
 // Variables
 $font-stack: 'Press Start 2P', cursive;
 $fontColor:#00FF66;
+$wallpaperLg: url(../Images/poketrainer-background-transparent.png);
 $titleColor: rgb(41, 37, 37);
-$wallpaperLg: url(../Images/poketrainer-background.jpg);
+// $wallpaperLg: url(../Images/poketrainer-background.jpg);
 $buttonEffects: rgb(237, 240, 71); 
 $pokeDexColor: red;
 $screenColor: #3A3A3A;
 $borderColor: black;
+
+
+
+
+
+html {
+	width: 100%;
+	height: 100%;
+	background: #4444ff;
+	animation: colorFlash 3s infinite;
+}
+
+@keyframes colorFlash {
+	0% {
+		background: $color1;
+	}
+	10% {
+		background: $color2;
+	}
+	20% {
+		background: $color3;
+	}
+	30% {
+		background: $color4;
+	}
+	40% {
+		background: $color5;
+	}
+	50% {
+		background: $color6;
+	}
+	60% {
+		background: $color7;
+	}
+	70% {
+		background: $color8;
+	}
+	80% {
+		background: $color9;
+	}
+	90% {
+		background: $color10;
+	}
+	100% {
+		background: $color11;
+	}
+}
+
+
 
 body {
 	margin: 0 auto;
@@ -25,13 +78,13 @@ h1 {
 #gymTitle {
 	color: $titleColor;
 	position: absolute;
-	width: 800px;
 	display: block;
 	text-align: center;
 	margin-left: 28%;
 	z-index: 1;
 
 }
+
 .Cinnamon-Gym {
 	position: relative;
 	display: flex;
