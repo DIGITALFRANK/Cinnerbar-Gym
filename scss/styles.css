@@ -110,15 +110,9 @@
   animation: francisHide 1s forwards;
 }
 
-html {
-  width: 100%;
-  height: 100%;
-  background: #444400;
-}
-
 body {
   margin: 0 auto;
-  background: url(../Images/poketrainer-background-transparent.png);
+  background: url(../Images/poketrainer-background.jpg);
   background-size: cover;
   font-family: "Press Start 2P", cursive;
   font-size: 16px;
@@ -133,6 +127,7 @@ h1 {
 #gymTitle {
   color: #292525;
   position: absolute;
+  width: 800px;
   display: block;
   text-align: center;
   margin-left: 28%;
