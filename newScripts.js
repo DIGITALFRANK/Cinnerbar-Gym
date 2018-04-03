@@ -169,11 +169,31 @@ $(document).ready(() => {
     mawuAkumaPokedex.all(25, 79, 55);
     pokeThrasherPokedex.all(101, 169, 105);
 
-    $(".left-button").hover(() => {
-        $('#ianPokedex').addClass('ianReveal');
+    $(".left-button").mouseover(() => {
+        $('#ianPokedex').toggleClass('ianReveal');
     });
 
-    $(".right-button").hover(() => {
-        $('#francisPokedex').addClass('francisReveal');
+    $(".left-button").mouseout(() => {
+        $('#ianPokedex').toggleClass('ianReveal');
     });
+
+
+
+    $(".right-button").mouseover(() => {
+        $('#francisPokedex').toggleClass('francisReveal');
+    });    
+
+    $(".right-button").mouseout(() => {
+        $('#francisPokedex').toggleClass('francisReveal');
+    });
+
+
+
+    // $(".left-button").mouseout(() => {
+    //     $('#ianPokedex').addClass('ianHide');
+    // });
+
+    // $(".right-button").mouseout(() => {
+    //     $('#francisPokedex').addClass('francisHide');
+    // });
 })

@@ -5,11 +5,17 @@
 // Variables
 $font-stack: 'Press Start 2P', cursive;
 $fontColor:#00FF66;
-$wallpaperLg: url(../Images/poketrainer-background.jpg);
+$wallpaperLg: url(../Images/poketrainer-background-transparent.png);
 $buttonEffects: rgb(237, 240, 71); 
 $pokeDexColor: red;
 $screenColor: #3A3A3A;
 $borderColor: black;
+
+html {
+	width: 100%;
+	height: 100%;
+	background: #444400;
+}
 
 body {
 	margin: 0 auto;
@@ -49,7 +55,6 @@ h1 {
 			border-radius: 12%;
 			border: 2px solid $borderColor;
 			background-color: $screenColor;
-			border: 
 		}
 		.right-button {
 			position: absolute;
