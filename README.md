@@ -1,6 +1,2 @@
-# Pokedex
 
-My Personal Pokedex is an assignment that draws the knowledge of Javascript Object-Oriented Programming, Ajax calls, and acessing an API and displaying the information in an organized manner. 
-
-The goal was to create a website that displayed 3 selected Pokemon from the Pokemon API and display them in a Pokedex. 
-
+The Cinnabar Pokemon gym is a collaborative group project between Ian and Francis. The project involved combining functionality and and features from both individual pokemon projects and creating a gym of each pokemon trainer's pokemon lineup. In terms of responsibilities, Francis was tasked with refactoring the JavaScript for the project, displaying each trainer's lineup, while Ian's task was to refactor the HTML and SCSS and to create a dual display for each  trainer and a buttons for each trainer to display the trainer's line-up.
