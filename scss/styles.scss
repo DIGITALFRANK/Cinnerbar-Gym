@@ -108,6 +108,7 @@ h1 {
 			border-radius: 12%;
 			border: 2px solid $borderColor;
 			background-color: $screenColor; 
+			z-index: 1;
 		}
 		.right-button {
 			position: absolute;
@@ -118,6 +119,7 @@ h1 {
 			border-radius: 12%;
 			border: 2px solid $borderColor;
 			background-color: $screenColor;
+			z-index: 1;
 		}
 }
 .icon {
